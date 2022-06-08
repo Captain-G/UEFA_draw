@@ -100,8 +100,7 @@ villareal = {
 }
 runnersUp = [villareal, sporting, chelsea, psg, salzburg, benfica, atletico, inter]
 groupWinners = [manCity, ajax, realMadrid, juventus, lille, liverpool, bayern, manUnited]
-# startDraw = input("Press any key to start draw : ").lower()
-startDraw = "a"
+startDraw = input("Press any key to start draw : ").lower()
 if startDraw.isalnum():
     while True:
         for i in range(8):
